@@ -12,22 +12,22 @@ struct mahasiswa
 int main(int argc, char const *argv[])
 {
     mahasiswa Ibnu;
-    mahasiswa *ptrIbnu = &Ibnu;
+    mahasiswa *ptrIbnu = &Ibnu; //Menggunakan struktur berbasis pointer
 
-    cout << "Isikan Data Anda: \n";
-    cout << "NIM : ";
-    cin >> ptrIbnu->nim;
-    cout << "Nama : ";
-    cin >> ptrIbnu->nama;
-    cout << "Alamat : ";
-    cin >> ptrIbnu->alamat;
-    cout << "IPK : ";
-    cin >> ptrIbnu->ipk;
+    cout << "Isikan Data Anda: \n"; //Menggunakan struktur berbasis pointer
+    cout << "NIM : "; //Menggunakan struktur berbasis pointer
+    cin >> ptrIbnu->nim; //Menggunakan struktur berbasis pointer
+    cout << "Nama : "; //Menggunakan struktur berbasis pointer
+    cin >> ptrIbnu->nama; //Menggunakan struktur berbasis pointer
+    cout << "Alamat : "; //Menggunakan struktur berbasis pointer
+    cin >> ptrIbnu->alamat; //Menggunakan struktur berbasis pointer
+    cout << "IPK : "; //Menggunakan struktur berbasis pointer
+    cin >> ptrIbnu->ipk; //Menggunakan struktur berbasis pointer
     system("cls");
-    cout << "Data Anda: \n";
-    cout << "NIM = " << ptrIbnu->nim << "\n";
-    cout << "Nama = " << ptrIbnu->nama << "\n";
-    cout << "Alamat = " << ptrIbnu->alamat << "\n";
-    cout << "IPK = " << ptrIbnu->ipk << "\n";
+    cout << "Data Anda: \n"; //Menggunakan struktur berbasis pointer
+    cout << "NIM = " << ptrIbnu->nim << "\n"; //Menggunakan struktur berbasis pointer
+    cout << "Nama = " << ptrIbnu->nama << "\n"; //Menggunakan struktur berbasis pointer
+    cout << "Alamat = " << ptrIbnu->alamat << "\n"; //Menggunakan struktur berbasis pointer
+    cout << "IPK = " << ptrIbnu->ipk << "\n"; //Menggunakan struktur berbasis pointer
     return 0;
 }
